@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: starWars;
+    src: url('Starjedi.ttf');
+}
+
+body {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border-style: none;
+    width: 200px;
+    height: 100px;
+    font-family: starWars;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 4px red;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: starWars;
+    letter-spacing: .3em;
+    text-shadow: 1px 1px 3px red;
+}
